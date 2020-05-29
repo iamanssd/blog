@@ -1,6 +1,44 @@
-.top-bar {
+body{
+	background: #e8e8e8;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 120px;
+	padding-bottom: 70px;
+}
+
+a:link, a:visited{
+	text-decoration: none;
+	color: blue;
+}
+
+a:hover, a:active{
+	text-decoration: none;
+}
+
+nav a:link, nav a:visited, nav a:hover, nav a:active{
+	text-decoration: none;
+	color:white;
+	font-size: 25px;
+	padding: 15px;
+	text-align: center;
+	display: inline-block;
+}
+
+#topbar{
 	background: #343d46;
-	padding-top: 10px;
+}
+
+#main{
+	background: white;
+	margin: auto;
+	width: 50%;
+	border: 1px solid #c9c9c9;
+	padding-top:10px;
+	padding-left: 30px;
+	padding-right: 30px;
 	padding-bottom: 10px;
-	width: 100vw;
+}
+
+.article-text{
+	text-align:justify;
+	font-size: 20px;
 }
